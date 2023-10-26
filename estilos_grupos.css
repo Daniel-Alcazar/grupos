@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #007566;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.group-list {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    text-align: left;
+    min-height: 100vh;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+.group {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.group h2 {
+    color: #333;
+}
+
+.group p {
+    color: #666;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #666; /* Añadir un borde para la caja gris */
+    border-radius: 5px;
+    
+}
+
+.group a {
+    display: block;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.group a:hover {
+    background-color: #555;
+}
+
